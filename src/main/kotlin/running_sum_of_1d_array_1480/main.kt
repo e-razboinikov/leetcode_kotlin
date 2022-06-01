@@ -1,6 +1,6 @@
 package running_sum_of_1d_array_1480
 
-class Solution1 {
+class Solution {
     fun runningSum(nums: IntArray): IntArray {
         val result = mutableListOf<Int>()
         for (i in nums.indices) {
