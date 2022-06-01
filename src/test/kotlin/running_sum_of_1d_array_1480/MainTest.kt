@@ -4,7 +4,7 @@ package running_sum_of_1d_array_1480
 import org.junit.jupiter.api.Assertions.*
 import org.junit.jupiter.api.Test
 
-internal class SolutionTest {
+internal class MainTest {
     private val instance = Solution()
 
     @Test

@@ -2,7 +2,7 @@ package roman_to_integer_13
 
 import junit.framework.TestCase
 
-class RomanToIntegerKtTest : TestCase() {
+class MainTest : TestCase() {
     val instance = Solution()
 
     fun test3() {
