@@ -3,17 +3,17 @@ package roman_to_integer_13
 import junit.framework.TestCase
 
 class MainTest : TestCase() {
-    val instance = Solution()
+    private val instance = Solution()
 
-    fun test3() {
+    fun test1() {
         assertEquals(3, instance.romanToInt("III"))
     }
 
-    fun test58() {
+    fun test2() {
         assertEquals(58, instance.romanToInt("LVIII"))
     }
 
-    fun test1994() {
+    fun test3() {
         assertEquals(1994, instance.romanToInt("MCMXCIV"))
     }
 }

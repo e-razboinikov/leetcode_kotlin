@@ -1,7 +1,7 @@
 package running_sum_of_1d_array_1480
 
 
-import org.junit.jupiter.api.Assertions.*
+import org.junit.jupiter.api.Assertions.assertArrayEquals
 import org.junit.jupiter.api.Test
 
 internal class MainTest {

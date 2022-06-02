@@ -1,5 +1,6 @@
 package roman_to_integer_13
 
+// My solution
 class Solution1 {
     fun romanToInt(s: String): Int {
         var result = 0
@@ -32,6 +33,7 @@ class Solution1 {
     }
 }
 
+// Solution from discuss
 class Solution {
     fun romanToInt(s: String): Int {
         var result = 0
@@ -43,11 +45,12 @@ class Solution {
             "L" to 50,
             "C" to 100,
             "D" to 500,
-            "M" to 1000)
+            "M" to 1000
+        )
 
-        for(i in s.indices) {
+        for (i in s.indices) {
             val currentChar: String = s[i].toString()
-            val nextChar = if(i + 1 < s.length) s[i + 1].toString() else  null
+            val nextChar = if (i + 1 < s.length) s[i + 1].toString() else null
             if (i < s.length - 1 && valuesMap[currentChar]!! < valuesMap[nextChar]!!) {
                 result -= valuesMap[currentChar]!!
             } else {
