@@ -5,4 +5,5 @@
 * ## [1. Two Sum.](src/main/kotlin/two_sum_1/)
 * ## [9. Palindrome Number.](src/main/kotlin/palindrome_number_9/)
 * ## [13. Roman to Integer.](src/main/kotlin/roman_to_integer_13/)
+* ## [14. Longest common prefix.](src/main/kotlin/longest_common_prefix_14/)
 * ## [1480. Running Sum of 1d Array.](src/main/kotlin/running_sum_of_1d_array_1480/)
